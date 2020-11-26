@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T02:36:00.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="FWYLRec1gY9ho7dfckUe" version="13.10.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-26T02:40:30.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="zMgrgzdDhTJWv5cPG8TM" version="13.10.3" type="github">
   <diagram id="5MWvmSyc9J_21eMogPjN" name="第 1 页">
-    <mxGraphModel dx="926" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2090" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7bZJuVO5FonDqBn3499Z-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="7bZJuVO5FonDqBn3499Z-2" value="SocketServer" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="170" y="580" width="350" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="7bZJuVO5FonDqBn3499Z-3" value="Protocol" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="520" y="580" width="350" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="7bZJuVO5FonDqBn3499Z-4" value="Processor" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="870" y="580" width="350" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="7bZJuVO5FonDqBn3499Z-5" value="SessionManager" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="580" width="350" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="7bZJuVO5FonDqBn3499Z-6" value="MessageHandler" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="580" width="350" height="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
