@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T03:26:05.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="tR_M7QJq0PuLWkz-gWIw" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T08:39:22.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="huGO3I5E0ey5rwNGdPb0" version="14.4.2" type="github">
   <diagram id="2pxuykn8li8klbZ2_H1M" name="第 1 页">
     <mxGraphModel dx="1178" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -83,6 +83,73 @@
         </mxCell>
         <mxCell id="55i73VC2xqvxe_tnqbmB-25" value="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="550" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-26" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-27" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-28" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-29" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-32" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-33" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-34" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-35" value="7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-36" value="" style="curved=1;endArrow=classic;html=1;entryX=0.414;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="55i73VC2xqvxe_tnqbmB-26" target="55i73VC2xqvxe_tnqbmB-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="270" as="sourcePoint" />
+            <mxPoint x="1000" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="270" />
+              <mxPoint x="1050" y="280" />
+              <mxPoint x="1070" y="200" />
+              <mxPoint x="1080" y="170" />
+              <mxPoint x="1110" y="230" />
+              <mxPoint x="1130" y="300" />
+              <mxPoint x="1170" y="260" />
+              <mxPoint x="1180" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-37" value="遍历一次，记录波峰波谷+最大差值&lt;br&gt;当遇到新的波谷，波峰需要重置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="320" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-38" value="Step1:&amp;nbsp; 波峰，波谷=2，差值最大0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="360" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-39" value="Step2:&amp;nbsp; 波峰=2，波谷=1，差值最大0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="380" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-40" value="Step2:&amp;nbsp; 波峰=5，波谷=1，差值最大4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="400" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-41" value="Step3:&amp;nbsp; 波峰=6，波谷=1，差值最大5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="420" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-42" value="Step4:&amp;nbsp; 波峰=6，波谷=1，差值最大5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="440" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-43" value="Step5:&amp;nbsp; 波峰=0，波谷=0，差值最大5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="460" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-44" value="Step5:&amp;nbsp; 波峰=1，波谷=0，差值最大5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="480" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="55i73VC2xqvxe_tnqbmB-45" value="Step6:&amp;nbsp; 波峰=7，波谷=0，差值最大7" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="500" width="360" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
